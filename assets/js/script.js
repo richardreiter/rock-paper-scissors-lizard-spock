@@ -37,7 +37,8 @@ const gamesLogic = (user) => {
         result = resultsArray[2]; // rock and scissors user lose
     }
 
-    document.getElementById("computerChoice").innerHTML = computer;
+    document.getElementById("computerChoice").innerHTML = computer;  
+    document.getElementById("result").innerHTML = result; // displays the outcome of the game (draw, win or lose) 
 } 
 
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
