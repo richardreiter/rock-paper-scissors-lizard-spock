@@ -29,6 +29,12 @@ const gamesLogic = (user) => {
         result = resultsArray[1]; // paper and scissors user wins
     } else if (computer == "Scissors ✌️" && user == "Rock ✊") {
         result = resultsArray[1]; // paper and scissors user wins
+    } else if (computer == "Rock ✊" && user == "Scissors ✌️") {
+        result = resultsArray[2]; // rock and scissors user lose
+    } else if (computer == "Paper ✋" && user == "Rock ✊") {
+        result = resultsArray[2]; // paper and rock user lose
+    } else if (computer == "Scissors ✌️" && user == "Paper ✋") {
+        result = resultsArray[2]; // rock and scissors user lose
     }
 
     document.getElementById("computerChoice").innerHTML = computer;
