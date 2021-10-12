@@ -19,13 +19,16 @@ const gamesLogic = (user) => {
     // if statement for logic of the game, depending on the user's and computer's choices
     if (computer == "Rock ✊" && user == "Rock ✊") {
         result = resultsArray[0]; // rock and rock result is a draw
-        console.log("result is a draw");
     } else if (computer == "Paper ✋" && user == "Paper ✋") {
         result = resultsArray[0]; // paper and paper result is a draw
-        console.log("result is a draw");
     } else if (computer == "Scissors ✌️" && user == "Scissors ✌️") {
         result = resultsArray[0]; // scissors and scissors result is a draw
-        console.log("result is a draw");
+    } else if (computer == "Rock ✊" && user == "Paper ✋") {
+        result = resultsArray[1]; // rock and paper user wins
+    } else if (computer == "Paper ✋" && user == "Scissors ✌️") {
+        result = resultsArray[1]; // paper and scissors user wins
+    } else if (computer == "Scissors ✌️" && user == "Rock ✊") {
+        result = resultsArray[1]; // paper and scissors user wins
     }
 
     document.getElementById("computerChoice").innerHTML = computer;
