@@ -1,5 +1,9 @@
 // array of options index 0 is rock, index 1 is paper and index 2 is scissors
-const options = ["rock", "paper", "scissors"];
+const options = ["Rock ✊", "Paper ✋", "Scissors ✌️"];
+
+// array of results which will hold the option of our results depending on index 0 draw/1 win / 2 lose
+const resultsArray = ["Draw", "Win", "Lose"];
+let result = "";
 
 // function to get computers choice
 const computersChoice = () => {
