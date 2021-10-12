@@ -2,26 +2,47 @@
 const options = ["Rock ✊", "Paper ✋", "Scissors ✌️"];
 
 // array of results which will hold the option of our results depending on index 0 draw/1 win / 2 lose
-const resultsArray = ["Draw", "Win", "Lose"];
+const resultsArray = ["Draw :/", "Win :D", "Lose :("];
 let result = "";
 
 // function to get computers choice
 const computersChoice = () => {
-    //generate a random number between 0-2 (represents index 0 rock/index 1 paper/index 2 scissors in numerals, depending on the random number)
+    // generate a random number between 0-2 (represents index 0 rock/index 1 paper/index 2 scissors in numerals, depending on the random number)
     const randomNumber = Math.floor(Math.random() * 3);
     const computerOption = options[randomNumber];
     return computerOption;
 };
 
+// create the games logic function
+const gamesLogic = (user) => {
+    const computer = computersChoice();
+    // if statement for logic of the game, depending on the user's and computer's choices
+    if (computer == "Rock ✊" && user == "Rock ✊") {
+        result = resultsArray[0]; // rock and rock result is a draw
+        console.log("result is a draw");
+    } else if (computer == "Paper ✋" && user == "Paper ✋") {
+        result = resultsArray[0]; // paper and paper result is a draw
+        console.log("result is a draw");
+    } else if (computer == "Scissors ✌️" && user == "Scissors ✌️") {
+        result = resultsArray[0]; // scissors and scissors result is a draw
+        console.log("result is a draw");
+    }
+
+    document.getElementById("computerChoice").innerHTML = computer;
+} 
+
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
 const rockChoice = document.getElementById("rock").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Rock ✊";
+    gamesLogic("Rock ✊")
 });
 
 const paperChoice = document.getElementById("paper").addEventListener("click", function() {
-    document.getElementById("yourChoice").innerHTML = "Paper ✋";
+    document.getElementById("yourChoice").innerHTML = "Paper ✋"
+    gamesLogic("Paper ✋")
 });
 
 const scissorsChoice = document.getElementById("scissors").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Scissors ✌️";
+    gamesLogic("Scissors ✌️")
 });
