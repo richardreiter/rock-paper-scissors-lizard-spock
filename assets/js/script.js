@@ -37,8 +37,8 @@ const gamesLogic = (user) => {
         result = resultsArray[2]; // rock and scissors user lose
     }
 
-    document.getElementById("computerChoice").innerHTML = computer;  
-    document.getElementById("result").innerHTML = result; // displays the outcome of the game (draw, win or lose) 
+    document.getElementById("computerChoice").innerHTML = computer; // displays the computers weapon choice to the computerChoice span
+    document.getElementById("result").innerHTML = result; // displays the outcome of the game to the result span (draw, win or lose)
 } 
 
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
@@ -55,4 +55,11 @@ const paperChoice = document.getElementById("paper").addEventListener("click", f
 const scissorsChoice = document.getElementById("scissors").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Scissors ✌️";
     gamesLogic("Scissors ✌️")
+});
+
+// add event listener for the reset button and clear below spans on the event the button is clicked
+const resetChoice = document.getElementById("reset").addEventListener("click", function() {
+    document.getElementById("computerChoice").innerHTML = "";
+    document.getElementById("yourChoice").innerHTML = "";
+    document.getElementById("result").innerHTML = "";
 });
