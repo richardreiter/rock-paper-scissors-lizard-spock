@@ -48,6 +48,10 @@ body {
     width: 100%;
 }
 
+.controls-area {
+    padding: 70px;
+}
+
 .btn:focus {
     outline: none;
 }
