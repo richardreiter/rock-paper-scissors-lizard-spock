@@ -2,3 +2,11 @@ body {
     background-color: #6C91BF;
     font-family: 'Quicksand', sans-serif;
 }
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #AF2BBF;
+}
