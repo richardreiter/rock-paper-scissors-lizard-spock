@@ -33,3 +33,9 @@ body {
     justify-content: space-evenly;
     width: 330px;
 }
+
+.controls-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
