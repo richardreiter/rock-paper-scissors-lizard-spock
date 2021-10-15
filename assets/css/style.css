@@ -1,7 +1,11 @@
+/* Global style */
+
 body {
     background-color: #6C91BF;
     font-family: 'Quicksand', sans-serif;
 }
+
+/* Heading */
 
 .heading-container {
     display: flex;
@@ -10,6 +14,8 @@ body {
     font-size: 24px;
     color: #AF2BBF;
 }
+
+/* Game layout */
 
 .result-wrapper {
     display: flex;
@@ -33,6 +39,8 @@ body {
     justify-content: space-evenly;
     width: 330px;
 }
+
+/* Buttons */
 
 .controls-wrapper {
     display: flex;
