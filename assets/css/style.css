@@ -27,3 +27,9 @@ body {
     font-size: 24px;
     color: #fff;
 }
+
+.result-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 330px;
+}
