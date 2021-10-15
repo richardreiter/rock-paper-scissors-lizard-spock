@@ -10,3 +10,10 @@ body {
     font-size: 24px;
     color: #AF2BBF;
 }
+
+.result-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* to help with responsiveness, flex items will break into multiple lines */
+    justify-content: center;
+    width: 100%;
+}
