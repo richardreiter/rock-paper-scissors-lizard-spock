@@ -115,3 +115,8 @@ body {
     color: white;
     transform: rotate(360deg);
 }
+
+.emoji-img {
+    height:160px;
+    margin-left: 20px;
+}
