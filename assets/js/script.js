@@ -56,16 +56,19 @@ const gamesLogic = (user) => {
 const rockChoice = document.getElementById("rock").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Rock ✊";
     gamesLogic("Rock ✊");
+    changeEmoji();
 });
 
 const paperChoice = document.getElementById("paper").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Paper ✋"
     gamesLogic("Paper ✋");
+    changeEmoji();
 });
 
 const scissorsChoice = document.getElementById("scissors").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Scissors ✌️";
     gamesLogic("Scissors ✌️");
+    changeEmoji();
 });
 
 // add event listener for the reset button and clear below spans on the event the button is clicked
@@ -73,4 +76,5 @@ const resetChoice = document.getElementById("reset").addEventListener("click", f
     document.getElementById("computerChoice").innerHTML = "";
     document.getElementById("yourChoice").innerHTML = "";
     document.getElementById("result").innerHTML = "";
+    document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
 });
