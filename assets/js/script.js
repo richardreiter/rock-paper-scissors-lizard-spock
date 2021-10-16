@@ -14,7 +14,7 @@ const changeEmoji = () => {
     } else if (result == resultsArray[2]) {
         document.getElementById("emoji").src = "/assets/images/lose-emoji.png";
     }
-}   
+}; 
 
 // function to get computers choice
 const computersChoice = () => {
@@ -74,7 +74,7 @@ const gamesLogic = (user) => {
 
     document.getElementById("computerChoice").innerHTML = computer; // displays the computers weapon choice to the computerChoice span
     document.getElementById("result").innerHTML = result; // displays the outcome of the game to the result span (draw, win or lose)
-} 
+};
 
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
 const rockChoice = document.getElementById("rock").addEventListener("click", function() {
@@ -84,7 +84,7 @@ const rockChoice = document.getElementById("rock").addEventListener("click", fun
 });
 
 const paperChoice = document.getElementById("paper").addEventListener("click", function() {
-    document.getElementById("yourChoice").innerHTML = "Paper ✋"
+    document.getElementById("yourChoice").innerHTML = "Paper ✋";
     gamesLogic("Paper ✋");
     changeEmoji();
 });
@@ -113,4 +113,19 @@ const resetChoice = document.getElementById("reset").addEventListener("click", f
     document.getElementById("yourChoice").innerHTML = "";
     document.getElementById("result").innerHTML = "";
     document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
+});
+
+// modal variables
+const openModal = document.getElementById("open-modal");
+const modalContainer = document.getElementById("modal_container");
+const closeModal = document.getElementById("close-modal");
+
+// add event listener to show the model when the open-modal button is clicked
+openModal.addEventListener("click", () => {
+    modalContainer.classList.add("show");
+});
+
+// add event listener to hide/remove the model class when the close-modal button is clicked
+closeModal.addEventListener("click", () => {
+    modalContainer.classList.remove("show");
 });
