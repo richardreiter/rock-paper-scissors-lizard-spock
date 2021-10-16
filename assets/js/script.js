@@ -18,8 +18,8 @@ const changeEmoji = () => {
 
 // function to get computers choice
 const computersChoice = () => {
-    // generate a random number between 0-2 (represents index 0 rock/index 1 paper/index 2 scissors in numerals, depending on the random number)
-    const randomNumber = Math.floor(Math.random() * 3);
+    // generate a random number between 0-4 (represents index 0 rock/index 1 paper/index 2 scissors, etc, in numerals, depending on the random number)
+    const randomNumber = Math.floor(Math.random() * 5);
     const computerOption = options[randomNumber];
     return computerOption;
 };
