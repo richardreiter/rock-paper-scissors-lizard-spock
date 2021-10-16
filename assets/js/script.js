@@ -1,5 +1,5 @@
-// array of options index 0 is rock, index 1 is paper and index 2 is scissors
-const options = ["Rock ✊", "Paper ✋", "Scissors ✌️"];
+// array of options index 0 is rock, index 1 is paper and index 2 is scissors, index 3 is lizard and index 4 spock
+const options = ["Rock ✊", "Paper ✋", "Scissors ✌️", "Lizard 🦎", "Spock 🖖"];
 
 // array of results which will hold the option of our results depending on index 0 draw/1 win / 2 lose
 const resultsArray = ["Draw :/", "Win :D", "Lose :("];
