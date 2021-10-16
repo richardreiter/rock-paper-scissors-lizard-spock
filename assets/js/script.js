@@ -5,6 +5,17 @@ const options = ["Rock ✊", "Paper ✋", "Scissors ✌️"];
 const resultsArray = ["Draw :/", "Win :D", "Lose :("];
 let result = "";
 
+// function to change the emoji state depending on the outcome of the game
+const changeEmoji = () => {
+    if (result == resultsArray[0]) {
+        document.getElementById("emoji").src = "/assets/images/draw-emoji.png";
+    } else if (result == resultsArray[1]) {
+        document.getElementById("emoji").src = "/assets/images/win-emoji.png";
+    } else if (result == resultsArray[2]) {
+        document.getElementById("emoji").src = "/assets/images/lose-emoji.png";
+    }
+}   
+
 // function to get computers choice
 const computersChoice = () => {
     // generate a random number between 0-2 (represents index 0 rock/index 1 paper/index 2 scissors in numerals, depending on the random number)
@@ -44,17 +55,17 @@ const gamesLogic = (user) => {
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
 const rockChoice = document.getElementById("rock").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Rock ✊";
-    gamesLogic("Rock ✊")
+    gamesLogic("Rock ✊");
 });
 
 const paperChoice = document.getElementById("paper").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Paper ✋"
-    gamesLogic("Paper ✋")
+    gamesLogic("Paper ✋");
 });
 
 const scissorsChoice = document.getElementById("scissors").addEventListener("click", function() {
     document.getElementById("yourChoice").innerHTML = "Scissors ✌️";
-    gamesLogic("Scissors ✌️")
+    gamesLogic("Scissors ✌️");
 });
 
 // add event listener for the reset button and clear below spans on the event the button is clicked
