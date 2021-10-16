@@ -71,6 +71,18 @@ const scissorsChoice = document.getElementById("scissors").addEventListener("cli
     changeEmoji();
 });
 
+const lizardChoice = document.getElementById("lizard").addEventListener("click", function() {
+    document.getElementById("yourChoice").innerHTML = "Lizard 🦎";
+    gamesLogic("Lizard 🦎");
+    changeEmoji();
+});
+
+const spockChoice = document.getElementById("spock").addEventListener("click", function() {
+    document.getElementById("yourChoice").innerHTML = "Spock 🖖";
+    gamesLogic("Spock 🖖");
+    changeEmoji();
+});
+
 // add event listener for the reset button and clear below spans on the event the button is clicked
 const resetChoice = document.getElementById("reset").addEventListener("click", function() {
     document.getElementById("computerChoice").innerHTML = "";
