@@ -104,6 +104,30 @@ body {
     transform: rotate(360deg);
 }
 
+#lizard {
+    border-color: orchid;
+    color: orchid;
+}
+
+#lizard:active,
+#lizard:hover {
+    background-color: darkorchid;
+    color: white;
+    transform: rotate(360deg);
+}
+
+#spock {
+    border-color: salmon;
+    color: salmon;
+}
+
+#spock:active,
+#spock:hover {
+    background-color: darksalmon;
+    color: white;
+    transform: rotate(360deg);
+}
+
 #reset {
     border-color: red;
     color: red;
