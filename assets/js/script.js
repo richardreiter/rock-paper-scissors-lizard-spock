@@ -28,24 +28,48 @@ const computersChoice = () => {
 const gamesLogic = (user) => {
     const computer = computersChoice();
     // if statement for logic of the game, depending on the user's and computer's choices
-    if (computer == "Rock ✊" && user == "Rock ✊") {
-        result = resultsArray[0]; // rock and rock result is a draw
-    } else if (computer == "Paper ✋" && user == "Paper ✋") {
-        result = resultsArray[0]; // paper and paper result is a draw
-    } else if (computer == "Scissors ✌️" && user == "Scissors ✌️") {
-        result = resultsArray[0]; // scissors and scissors result is a draw
+    if (computer == user) {
+        result = resultsArray[0]; // if both the computer and user make the same choice, it's a draw
     } else if (computer == "Rock ✊" && user == "Paper ✋") {
         result = resultsArray[1]; // rock and paper user wins
+    } else if (computer == "Rock ✊" && user == "Spock 🖖") {
+        result = resultsArray[1]; // rock and spock user wins
     } else if (computer == "Paper ✋" && user == "Scissors ✌️") {
         result = resultsArray[1]; // paper and scissors user wins
+    } else if (computer == "Paper ✋" && user == "Lizard 🦎") {
+        result = resultsArray[1]; // paper and lizard user wins
     } else if (computer == "Scissors ✌️" && user == "Rock ✊") {
-        result = resultsArray[1]; // paper and scissors user wins
+        result = resultsArray[1]; // scissors and rock user wins
+    } else if (computer == "Scissors ✌️" && user == "Spock 🖖") {
+        result = resultsArray[1]; // scissors and spock user wins
+    } else if (computer == "Lizard 🦎" && user == "Scissors ✌️") {
+        result = resultsArray[1]; // lizard and scissors user wins
+    } else if (computer == "Lizard 🦎" && user == "Rock ✊") {
+        result = resultsArray[1]; // lizard and rock user wins
+    } else if (computer == "Spock 🖖" && user == "Paper ✋") {
+        result = resultsArray[1]; // spock and paper user wins
+    } else if (computer == "Spock 🖖" && user == "Lizard 🦎") {
+        result = resultsArray[1]; // spock and lizard user wins
     } else if (computer == "Rock ✊" && user == "Scissors ✌️") {
         result = resultsArray[2]; // rock and scissors user lose
+    } else if (computer == "Rock ✊" && user == "Lizard 🦎") {
+        result = resultsArray[2]; // rock and lizard user lose
     } else if (computer == "Paper ✋" && user == "Rock ✊") {
         result = resultsArray[2]; // paper and rock user lose
+    } else if (computer == "Paper ✋" && user == "Spock 🖖") {
+        result = resultsArray[2]; // paper and spock user lose
     } else if (computer == "Scissors ✌️" && user == "Paper ✋") {
-        result = resultsArray[2]; // rock and scissors user lose
+        result = resultsArray[2]; // scissors and paper user lose
+    } else if (computer == "Scissors ✌️" && user == "Lizard 🦎") {
+        result = resultsArray[2]; // scissors and lizard user lose
+    } else if (computer == "Lizard 🦎" && user == "Paper ✋") {
+        result = resultsArray[2]; // lizard and paper user lose
+    } else if (computer == "Lizard 🦎" && user == "Spock 🖖") {
+        result = resultsArray[2]; // lizard and spock user lose
+    } else if (computer == "Spock 🖖" && user == "Scissors ✌️") {
+        result = resultsArray[2]; // spock and scissors user lose
+    } else if (computer == "Spock 🖖" && user == "Rock ✊") {
+        result = resultsArray[2]; // spock and rock user lose
     }
 
     document.getElementById("computerChoice").innerHTML = computer; // displays the computers weapon choice to the computerChoice span
