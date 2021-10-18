@@ -186,7 +186,7 @@ body {
 }
 
 .modal-container.show {
-    pointer-events: auto;
+    pointer-events: initial;
     opacity: 1;
 }
 
