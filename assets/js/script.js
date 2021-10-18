@@ -31,25 +31,35 @@ const gamesLogic = (user) => {
     if (computer == user) {
         result = resultsArray[0]; // if both the computer and user make the same choice, it's a draw
     } else if (computer == "Rock ✊" && user == "Paper ✋") {
-        result = resultsArray[1]; // rock and paper user wins
+        result = resultsArray[1];
+        incrementYourScore(); // rock and paper user wins
     } else if (computer == "Rock ✊" && user == "Spock 🖖") {
-        result = resultsArray[1]; // rock and spock user wins
+        result = resultsArray[1];
+        incrementYourScore(); // rock and spock user wins
     } else if (computer == "Paper ✋" && user == "Scissors ✌️") {
-        result = resultsArray[1]; // paper and scissors user wins
+        result = resultsArray[1];
+        incrementYourScore(); // paper and scissors user wins
     } else if (computer == "Paper ✋" && user == "Lizard 🦎") {
-        result = resultsArray[1]; // paper and lizard user wins
+        result = resultsArray[1];
+        incrementYourScore(); // paper and lizard user wins
     } else if (computer == "Scissors ✌️" && user == "Rock ✊") {
-        result = resultsArray[1]; // scissors and rock user wins
+        result = resultsArray[1];
+        incrementYourScore(); // scissors and rock user wins
     } else if (computer == "Scissors ✌️" && user == "Spock 🖖") {
-        result = resultsArray[1]; // scissors and spock user wins
+        result = resultsArray[1];
+        incrementYourScore(); // scissors and spock user wins
     } else if (computer == "Lizard 🦎" && user == "Scissors ✌️") {
-        result = resultsArray[1]; // lizard and scissors user wins
+        result = resultsArray[1];
+        incrementYourScore(); // lizard and scissors user wins
     } else if (computer == "Lizard 🦎" && user == "Rock ✊") {
-        result = resultsArray[1]; // lizard and rock user wins
+        result = resultsArray[1];
+        incrementYourScore(); // lizard and rock user wins
     } else if (computer == "Spock 🖖" && user == "Paper ✋") {
-        result = resultsArray[1]; // spock and paper user wins
+        result = resultsArray[1];
+        incrementYourScore(); // spock and paper user wins
     } else if (computer == "Spock 🖖" && user == "Lizard 🦎") {
-        result = resultsArray[1]; // spock and lizard user wins
+        result = resultsArray[1];
+        incrementYourScore(); // spock and lizard user wins
     } else if (computer == "Rock ✊" && user == "Scissors ✌️") {
         result = resultsArray[2];
         incrementCompScore(); // rock and scissors user lose
