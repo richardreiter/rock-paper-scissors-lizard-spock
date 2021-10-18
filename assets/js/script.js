@@ -143,7 +143,15 @@ closeModal.addEventListener("click", () => {
 /**
  * Gets the computer score from the DOM and increments it by 1
  */
-function incrementCompScore() {
+ function incrementCompScore() {
     let oldScore = parseInt(document.getElementById("computerScore").innerText);
     document.getElementById("computerScore").innerText = ++oldScore;
+}
+
+/**
+ * Gets the user score from the DOM and increments it by 1
+ */
+ function incrementYourScore() {
+    let oldScore = parseInt(document.getElementById("yourScore").innerText);
+    document.getElementById("yourScore").innerText = ++oldScore;
 }
