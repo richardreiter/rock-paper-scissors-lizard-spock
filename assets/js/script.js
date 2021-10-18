@@ -129,3 +129,11 @@ openModal.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
     modalContainer.classList.remove("show");
 });
+
+/**
+ * Gets the computer score from the DOM and increments it by 1
+ */
+function incrementCompScore() {
+    let oldScore = parseInt(document.getElementById("computerScore").innerText);
+    document.getElementById("computerScore").innerText = ++oldScore;
+}
