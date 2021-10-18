@@ -14,7 +14,7 @@ const changeEmoji = () => {
     } else if (result == resultsArray[2]) {
         document.getElementById("emoji").src = "/assets/images/lose-emoji.png";
     }
-}; 
+};
 
 // function to get computers choice
 const computersChoice = () => {
@@ -97,38 +97,38 @@ const gamesLogic = (user) => {
 };
 
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
-const rockChoice = document.getElementById("rock").addEventListener("click", function() {
+const rockChoice = document.getElementById("rock").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Rock ✊";
     gamesLogic("Rock ✊");
     changeEmoji();
 });
 
-const paperChoice = document.getElementById("paper").addEventListener("click", function() {
+const paperChoice = document.getElementById("paper").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Paper ✋";
     gamesLogic("Paper ✋");
     changeEmoji();
 });
 
-const scissorsChoice = document.getElementById("scissors").addEventListener("click", function() {
+const scissorsChoice = document.getElementById("scissors").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Scissors ✌️";
     gamesLogic("Scissors ✌️");
     changeEmoji();
 });
 
-const lizardChoice = document.getElementById("lizard").addEventListener("click", function() {
+const lizardChoice = document.getElementById("lizard").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Lizard 🦎";
     gamesLogic("Lizard 🦎");
     changeEmoji();
 });
 
-const spockChoice = document.getElementById("spock").addEventListener("click", function() {
+const spockChoice = document.getElementById("spock").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Spock 🖖";
     gamesLogic("Spock 🖖");
     changeEmoji();
 });
 
-// add event listener for the reset button and clear below spans on the event the button is clicked
-const resetChoice = document.getElementById("reset").addEventListener("click", function() {
+// add event listener for the reset button and clear/reset below spans on the event the button is clicked
+const resetChoice = document.getElementById("reset").addEventListener("click", function () {
     document.getElementById("computerChoice").innerHTML = "";
     document.getElementById("yourChoice").innerHTML = "";
     document.getElementById("result").innerHTML = "";
@@ -155,7 +155,7 @@ closeModal.addEventListener("click", () => {
 /**
  * Gets the computer score from the DOM and increments it by 1
  */
- function incrementCompScore() {
+function incrementCompScore() {
     let oldScore = parseInt(document.getElementById("computerScore").innerText);
     document.getElementById("computerScore").innerText = ++oldScore;
 }
@@ -163,7 +163,7 @@ closeModal.addEventListener("click", () => {
 /**
  * Gets the user score from the DOM and increments it by 1
  */
- function incrementYourScore() {
+function incrementYourScore() {
     let oldScore = parseInt(document.getElementById("yourScore").innerText);
     document.getElementById("yourScore").innerText = ++oldScore;
 }
