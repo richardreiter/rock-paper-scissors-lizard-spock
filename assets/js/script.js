@@ -132,6 +132,8 @@ const resetChoice = document.getElementById("reset").addEventListener("click", f
     document.getElementById("computerChoice").innerHTML = "";
     document.getElementById("yourChoice").innerHTML = "";
     document.getElementById("result").innerHTML = "";
+    document.getElementById("computerScore").innerHTML = "0";
+    document.getElementById("yourScore").innerHTML = "0";
     document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
 });
 
