@@ -152,18 +152,36 @@ closeModal.addEventListener("click", () => {
     modalContainer.classList.remove("show");
 });
 
+function resetAll() {
+    document.getElementById("computerChoice").innerText = "";
+    document.getElementById("yourChoice").innerHTML = "";
+    document.getElementById("result").innerText = "";
+    document.getElementById("computerScore").innerHTML = "0";
+    document.getElementById("yourScore").innerHTML = "0";
+    document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
+}
+
 /**
- * Gets the computer score from the DOM and increments it by 1
+ * Gets the computer score from the DOM and increments it by 1, if score equals to 5, computer wins!
  */
 function incrementCompScore() {
     let oldScore = parseInt(document.getElementById("computerScore").innerText);
     document.getElementById("computerScore").innerText = ++oldScore;
+    if (oldScore == '5') {
+        alert("The computer scored 5 before you, try again! 😞");
+        resetAll();
+    }
 }
 
 /**
- * Gets the user score from the DOM and increments it by 1
+ * Gets the user score from the DOM and increments it by 1, if score equals to 5, user wins!
  */
 function incrementYourScore() {
     let oldScore = parseInt(document.getElementById("yourScore").innerText);
     document.getElementById("yourScore").innerText = ++oldScore;
+    if (oldScore == '5') {
+        alert("You scored 5 before the computer, BAZZINGA! 🤓");
+        resetAll();
+    }
 }
+
