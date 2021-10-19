@@ -11,11 +11,11 @@ let result = "";
 // Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k
 const changeEmoji = () => {
     if (result == resultsArray[0]) {
-        document.getElementById("emoji").src = "/assets/images/draw-emoji.png";
+        document.getElementById("emoji").src = "assets/images/draw-emoji.png";
     } else if (result == resultsArray[1]) {
-        document.getElementById("emoji").src = "/assets/images/win-emoji.png";
+        document.getElementById("emoji").src = "assets/images/win-emoji.png";
     } else if (result == resultsArray[2]) {
-        document.getElementById("emoji").src = "/assets/images/lose-emoji.png";
+        document.getElementById("emoji").src = "assets/images/lose-emoji.png";
     }
 };
 
@@ -138,7 +138,7 @@ const resetChoice = document.getElementById("reset").addEventListener("click", f
     document.getElementById("result").innerHTML = "";
     document.getElementById("computerScore").innerHTML = "0";
     document.getElementById("yourScore").innerHTML = "0";
-    document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
+    document.getElementById("emoji").src = "assets/images/reset-emoji.png";
 });
 
 // modal variables
@@ -163,7 +163,7 @@ function resetAll() {
     document.getElementById("result").innerText = "";
     document.getElementById("computerScore").innerHTML = "0";
     document.getElementById("yourScore").innerHTML = "0";
-    document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
+    document.getElementById("emoji").src = "assets/images/reset-emoji.png";
 }
 
 // Many thanks to Anna Greaves for the CI’s Love Maths Walkthrough project for a great reference and example: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode
