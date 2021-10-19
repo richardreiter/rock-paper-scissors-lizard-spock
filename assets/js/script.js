@@ -1,11 +1,14 @@
+// Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k
 // array of options index 0 is rock, index 1 is paper and index 2 is scissors, index 3 is lizard and index 4 spock
 const options = ["Rock ✊", "Paper ✋", "Scissors ✌️", "Lizard 🦎", "Spock 🖖"];
 
 // array of results which will hold the option of our results depending on index 0 draw/1 win / 2 lose
+// Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k
 const resultsArray = ["Draw :/", "Win :D", "Lose :("];
 let result = "";
 
 // function to change the emoji state depending on the outcome of the game
+// Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k
 const changeEmoji = () => {
     if (result == resultsArray[0]) {
         document.getElementById("emoji").src = "/assets/images/draw-emoji.png";
@@ -97,6 +100,7 @@ const gamesLogic = (user) => {
 };
 
 // event listeners for the players choice, get span element by its id when player makes a choice and change the inner html of the span
+// Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k
 const rockChoice = document.getElementById("rock").addEventListener("click", function () {
     document.getElementById("yourChoice").innerHTML = "Rock ✊";
     gamesLogic("Rock ✊");
@@ -138,6 +142,7 @@ const resetChoice = document.getElementById("reset").addEventListener("click", f
 });
 
 // modal variables
+// Many thanks to Florin Pop for a great reference and example: https://www.youtube.com/watch?v=XH5OW46yO8I
 const openModal = document.getElementById("open-modal");
 const modalContainer = document.getElementById("modal_container");
 const closeModal = document.getElementById("close-modal");
@@ -161,6 +166,7 @@ function resetAll() {
     document.getElementById("emoji").src = "/assets/images/reset-emoji.png";
 }
 
+// Many thanks to Anna Greaves for the CI’s Love Maths Walkthrough project for a great reference and example: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode
 /**
  * Gets the computer score from the DOM and increments it by 1, if score equals to 5, computer wins!
  */
@@ -173,6 +179,7 @@ function incrementCompScore() {
     }
 }
 
+// Many thanks to Anna Greaves for the CI’s Love Maths Walkthrough project for a great reference and example: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode
 /**
  * Gets the user score from the DOM and increments it by 1, if score equals to 5, user wins!
  */

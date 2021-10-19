@@ -17,6 +17,7 @@ body {
 }
 
 /* Game layout */
+/* Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k */
 
 .result-wrapper {
     display: flex;
@@ -50,6 +51,7 @@ body {
 }
 
 /* Buttons */
+/* Many thanks to Anna Greaves for the CI’s Love Maths Walkthrough project for a great reference and example: https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode */
 
 .controls-wrapper {
     display: flex;
@@ -150,12 +152,16 @@ body {
 }
 
 /* emoji state image */
+/* Many thanks to Polkagris/Red Eye Media for a great reference and example: https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2 / https://www.youtube.com/watch?v=WtSiG2DNF9k */
+
 .emoji-img {
     height: 160px;
     margin-left: 20px;
 }
 
 /* how to play modal */
+/* Many thanks to Florin Pop for a great reference and example: https://www.youtube.com/watch?v=XH5OW46yO8I */
+
 .modal {
     text-align: center;
     justify-content: center;
