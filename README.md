@@ -19,7 +19,8 @@ Visit the live project [here.](https://richardreiter.github.io/rock-paper-scisso
 
 ### Target Audience
 
-- 
+- People of all ages.
+- Anyone who wants to have a bit of fun with a game of chance.
 
 ### User Stories
 
