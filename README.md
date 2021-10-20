@@ -131,7 +131,15 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ## Deployment
 
-- 
+- The website was deployed to GitHub pages, the steps were: 
+  1. Log into my GitHub account.
+  2. Select the relevant repository from the far left menu [richardreiter/rock-paper-scissors-lizard-spock](https://github.com/richardreiter/rock-paper-scissors-lizard-spock)
+  3. Select the "Settings" option.
+  4. Hover down to the GitHub pages section heading.
+  5. See the text: "Pages settings now has its own dedicated tab! Check it out here!" (click on "[Check it out here!](https://github.com/richardreiter/rock-paper-scissors-lizard-spock/settings/pages)").
+  6. Select "main" under Source Branch.
+  7. Click "Save"
+  8. A success message appears stating the site has been published at https://richardreiter.github.io/rock-paper-scissors-lizard-spock/
 
 ## Credits 
 
