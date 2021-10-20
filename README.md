@@ -110,13 +110,11 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
   - Index Page (mobile) result:
   ![Index Lighthouse PC result](docs/lighthouse/index-lighthouse-mobile.png)
 
-### Color Contrast Accessibility Checker
-
-- 
-
 ### Responsive Testing
 
-- 
+- __[Am I Responsive?](http://ami.responsivedesign.is/)__
+  - This design tool was used to show how responsive the website is and looks across 4 different viewports (Desktop, Laptop, Tablet and Mobile):
+![Responsive Rock Paper Scissors Lizard Spock](docs/screenshots/rpsls-responsiveness.png)
 
 ### Device Testing
 
