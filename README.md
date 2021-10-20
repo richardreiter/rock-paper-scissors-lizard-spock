@@ -1,7 +1,7 @@
-# Rock, Paper, Scissors, Lizard, Spock Game
+# Rock Paper Scissors Lizard Spock Game
 
-[Rock Paper Scissors Lizard Spock](https://richardreiter.github.io/rock-paper-scissors-lizard-spock/) is a website hosting a web based game invented by [Sam Kass & Karen Bryla](http://www.samkass.com/theories/RPSSL.html). This game was popularised by the American TV sitcom [The Big Bang Theory](https://youtu.be/x5Q6-wMx-K8), as an improvement of the classic Rock Paper Scissors game.
-The Lizard and Spock addition is meant to give the game a twist and make it more fun/exciting.
+[Rock Paper Scissors Lizard Spock](https://richardreiter.github.io/rock-paper-scissors-lizard-spock/) is a website hosting a web based game invented by [Sam Kass & Karen Bryla](http://www.samkass.com/theories/RPSSL.html). This game was popularised by the American TV sitcom [The Big Bang Theory](https://youtu.be/x5Q6-wMx-K8), as an improvement of the classic Rock, Paper, Scissors game.
+The Lizard and Spock addition gives the game a twist and makes it more fun and exciting.
 
 The player will test their luck against the computer, making a choice of their weapon in each round - Try and beat the computer, first to reach 5 points wins!
 
@@ -43,7 +43,7 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 - The colour scheme was generated with [Coolors.](https://coolors.co/af2bbf-a14ebf-6c91bf-5fb0b7-5bc8af)
 ![Color scheme](docs/screenshots/palette.png)
 
-- [Google Fonts](https://fonts.google.com/) was used for the website's fonts, some inspiration on the choice of fonts (Chakra Petch & Quicksand) came from [mixed ideas of this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site.](https://www.whatfontis.com/NMY_BigBang.similar)
+- [Google Fonts](https://fonts.google.com/) was used for the website's fonts. Inspiration on the choice of fonts (Chakra Petch & Quicksand) came from [mixed ideas of this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site.](https://www.whatfontis.com/NMY_BigBang.similar)
 
 ![Fonts Used](docs/screenshots/fonts.png)
 
@@ -53,13 +53,13 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 - __Header__
 
-  - Featured at the top of the page, the header shows the initials of the game, in a font that resembles The Big Bang Theory's font and also mixed up with some emojis to convey a playful game.
+  - Featured at the top of the page is the header. This shows the initials of the game, in a font that resembles The Big Bang Theory's font, combined with some emojis to convey a playful game.
 
 ![Header](docs/screenshots/rpsls-header.png)
 
 - __About / How to Play button__
 
-  - This button opens the modal with the more information and rules about the game.
+  - This button opens the modal with information and rules about the game.
 
 ![About/How to play button](docs/screenshots/rpsls-how-to-play-btn.png)
 
@@ -184,7 +184,7 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Browser Testing
 
-- The Rock Paper Scissors Lizard Spock website was tested on several browsers (without any issues, but Safari on iPhone 11 Pro Max - please see "Unfixed Bugs" section below), including:
+- The Rock Paper Scissors Lizard Spock website was tested on several browsers without any issues (apart from Safari on iPhone 11 Pro Max - please see "Unfixed Bugs" section below):
   - Google Chrome (Version 94.0.4606.81 (Official Build) (arm64))
   - Mozilla Firefox (93.0 (64-bit))
   - Safari (Version 14.1.2 (16611.3.10.1.6))
@@ -194,13 +194,13 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Fixed Bugs
 
-- The emoji state image disappeared from the live site once the website was deployed:
-  - I hadn't noticed I was using a wrong file path for that image in particular, once I deployed the site I couldn't see that image in particular - this was fixed once I changed the file path.
+- The emoji state image disappeared from the live site when the website was deployed:
+  - A wrong file path was being used for that specific image, once I deployed the site I couldn't see that image in particular - this was fixed once I changed the file path.
 
 ### Unfixed Bugs
 
-- Buttons look streched on iPhone 11 Pro Max (iOS 14.8) Safari 14:
-  - When testing the website, for some reason there's a bug with the buttons' designs only found on that iPhone device and browser in particular:
+- Buttons look stretched on iPhone 11 Pro Max (iOS 14.8) Safari 14:
+  - When testing the website, a bug was found with the buttons' designs only on the iPhone device and Safari browser in particular:
 
 - ![iPhone 11 Safari Bug](docs/screenshots/iphone-safari-bug.jpeg)
 
@@ -225,7 +225,7 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 - The color scheme was generated with [Coolors.](https://coolors.co/af2bbf-a14ebf-6c91bf-5fb0b7-5bc8af)
 - Emojis used throughout the game were found [via Emojipedia.](https://emojipedia.org/)
 - Many thanks to Anna Greaves for the [CI’s Love Maths Walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) for a great reference, inspiration and example for buttons.
-- Many thanks to [Polkagris](https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2)/[Red Eye Media](https://www.youtube.com/watch?v=WtSiG2DNF9k) for a great reference and example of the emoji state.
+- Many thanks to [Polkagris](https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2)/[Red Eye Media](https://www.youtube.com/watch?v=WtSiG2DNF9k) for a great reference and example for the emoji state.
 - Many thanks to [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I) for a great reference and example of a modal.
 
 ### Media
