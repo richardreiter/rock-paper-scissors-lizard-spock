@@ -51,11 +51,63 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Existing Features
 
-- 
+- __Header__
+
+  - Featured at the top of the page, the header shows the initials of the game, in a font that resembles The Big Bang Theory's font and also mixed up with some emojis to convey a playful game.
+
+![Header](docs/screenshots/rpsls-header.png)
+
+- __About / How to Play button__
+
+  - This button opens the modal with the more information and rules about the game.
+
+![About/How to play button](docs/screenshots/rpsls-how-to-play-btn.png)
+
+- __About / How to Play modal__
+
+  - This modal features information and rules about the game.
+
+![About/How to play modal](docs/screenshots/rpsls-modal.png)
+
+- __About / How to Play modal close button__
+
+  - This button features in the modal and will close once clicked, bringing the player/user back to the main screen.
+
+![About/How to play modal close button](docs/screenshots/rpsls-close-modal-btn.png)
+
+- __Result area__
+
+  - The result area features the following:
+    - "Computer choice" - The weapon chosen by the computer on this round.
+    - "Your choice" - The weapon you chose on this round.
+    - "You" - Win/lose/draw, depending on the outcome of the round in question.
+
+![Result area](docs/screenshots/rpsls-result-area.png)
+
+- __Score area__
+
+  - The score area features the current score for both the player and computer.
+
+![Score area](docs/screenshots/rpsls-score-area.png)
+
+- __Emoji container__
+
+  - The emoji container features a pixelated dynamic emoji, which changes depending on the outcome of the round (featuring four different emoji states).
+
+![Emoji container](docs/screenshots/rpsls-emoji.png)
+
+- __Controls area__
+
+  - The controls area features the following:
+    - Five button/icons with the options of Rock, Paper, Scissors, Lizard or Spock.
+    - Reset button to reset the game/score board.
+
+![Controls area](docs/screenshots/rpsls-controls.png)
 
 ### Features Left to Implement
 
-- 
+- [sessionStorage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp)
+  - A window sessionStorage is a feature to keep in mind so the user can type their name, this would be a nice addition to customise and personalise the experience for them.
 
 ## Technologies Used
 
