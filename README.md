@@ -43,7 +43,7 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 - The colour scheme was generated with [Coolors.](https://coolors.co/af2bbf-a14ebf-6c91bf-5fb0b7-5bc8af)
 ![Color scheme](docs/screenshots/palette.png)
 
-- [Google Fonts](https://fonts.google.com/) was used for the website's fonts, some inspiration on the choice of fonts (Chakra Petch & Quicksand) came from [mixed ideas of this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site](https://www.whatfontis.com/NMY_BigBang.similar).
+- [Google Fonts](https://fonts.google.com/) was used for the website's fonts, some inspiration on the choice of fonts (Chakra Petch & Quicksand) came from [mixed ideas of this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site.](https://www.whatfontis.com/NMY_BigBang.similar)
 
 ![Fonts Used](docs/screenshots/fonts.png)
 
@@ -161,15 +161,21 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ## Credits
 
-
-
 ### Content
 
-- 
+- The button icons were taken from [Font Awesome.](https://fontawesome.com/)
+- Font inspiration ideas were taken from [this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site.](https://www.whatfontis.com/NMY_BigBang.similar)
+- The color scheme was generated with [Coolors.](https://coolors.co/af2bbf-a14ebf-6c91bf-5fb0b7-5bc8af)
+- Emojis used throughout the game were found [via Emojipedia.](https://emojipedia.org/)
+- Many thanks to Anna Greaves for the [CI’s Love Maths Walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) for a great reference, inspiration and example for buttons.
+- Many thanks to [Polkagris](https://github.com/Polkagris/rock-paper-scissors-vanillaJs_v2)/[Red Eye Media](https://www.youtube.com/watch?v=WtSiG2DNF9k) for a great reference and example of the emoji state.
+- Many thanks to [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I) for a great reference and example of a modal.
 
 ### Media
 
-- 
+- The website [favicon.io](https://favicon.io/) was used to convert an image into a favicon.
+- The website [tinypng.com](https://tinypng.com/) was used to compress the images.
+- Many thanks to [tulpahn](https://icon-icons.com/pack/Emoji-Pixel/3044) for the Emoji Pixel pack images used for the emoji state images.
 
 ### Other
 
