@@ -118,8 +118,12 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Device Testing
 
-- 
-  - 
+- The Rock Paper Scissors Lizard Spock game website was tested on several devices/environments (without any issues, but Safari on iPhone 11 Pro Max - please see "Unfixed Bugs" section below), including:
+  - MacBook Air 13.3" M1 2020 (macOS Big Sur 11.5.2)
+  - i5 Desktop PC (Windows 10 64x)
+  - iPhone 11 Pro Max (iOS 14.8)
+  - Xiaomi Mi A3 (Android 11)
+  - Google Pixel 4a (Android 11)
 
 ### Browser Testing
 
