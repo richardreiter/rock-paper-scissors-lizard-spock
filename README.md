@@ -13,7 +13,9 @@ Visit the live project [here.](https://richardreiter.github.io/rock-paper-scisso
 
 ### Project Goals
 
-- 
+- Create a clean, simple one page website to showcase a classic fun game (with a twist).
+- Provide the user/player with instructions/rules on how to play the game.
+- Provide feedback to the user on each round via a score tally.
 
 ### Target Audience
 
