@@ -86,7 +86,20 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Validator Testing
 
-- 
+- HTML
+  - No errors/warnings were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frichardreiter.github.io%2Frock-paper-scissors-lizard-spock%2Findex.html)
+
+  ![Index Page W3C validation result](docs/validation/index-validation.png)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frichardreiter.github.io%2Frock-paper-scissors-lizard-spock%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  ![CSS Jigsaw validation result](docs/validation/css-validation.png)
+
+- JavaScript
+  - No warnings were returned when passing through [JShint code quality tool](https://jshint.com/)
+
+  ![JShint validation result](docs/validation/js-validation.png)
 
 ### Google Lighthouse
 
