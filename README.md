@@ -24,8 +24,9 @@ Visit the live project [here.](https://richardreiter.github.io/rock-paper-scisso
 
 ### User Stories
 
-- 
-
+- As a user, I want to understand what the website is about.
+- As a user, I want to know how to play the game.
+- As a user, I want to know the game's rules.
 
 ### Wireframes
 
