@@ -137,7 +137,8 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Fixed Bugs
 
-- 
+- The emoji state image disappeared from the live site once the website was deployed:
+  - I hadn't noticed I was using a wrong file path for that image in particular, once I deployed the site I couldn't see that image in particular - this was fixed once I changed the file path.
 
 ## Deployment
 
