@@ -103,7 +103,12 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Google Lighthouse
 
-- 
+- Google's Lighthouse was used for measuring the quality of the pages.
+  - Index Page (desktop) result:
+  ![Index Lighthouse PC result](docs/lighthouse/index-lighthouse-desktop.png)
+
+  - Index Page (mobile) result:
+  ![Index Lighthouse PC result](docs/lighthouse/index-lighthouse-mobile.png)
 
 ### Color Contrast Accessibility Checker
 
