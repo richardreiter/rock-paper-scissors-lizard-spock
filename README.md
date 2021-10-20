@@ -30,7 +30,13 @@ Visit the live project [here.](https://richardreiter.github.io/rock-paper-scisso
 
 ### Wireframes
 
+The mockups below were done with the help of Balsamiq (for both desktop and mobile screens), these were useful to help visualise the project.
 
+- Desktop:
+  ![Desktop Mockup](docs/wireframes/desk-wireframe.png)
+
+- Mobile:
+  ![Mobile Mockup](docs/wireframes/mobile-wireframe.png)
 
 ### Design
 
