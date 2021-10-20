@@ -140,6 +140,13 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 - The emoji state image disappeared from the live site once the website was deployed:
   - I hadn't noticed I was using a wrong file path for that image in particular, once I deployed the site I couldn't see that image in particular - this was fixed once I changed the file path.
 
+### Unfixed Bugs
+
+- Buttons look streched on iPhone 11 Pro Max (iOS 14.8) Safari 14:
+  - When testing the website, for some reason there's a bug with the buttons' designs only found on that iPhone device and browser in particular:
+
+- ![iPhone 11 Safari Bug](docs/screenshots/iphone-safari-bug.jpeg)
+
 ## Deployment
 
 - The website was deployed to GitHub pages, the steps were: 
@@ -152,7 +159,9 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
   7. Click "Save"
   8. A success message appears stating the site has been published at https://richardreiter.github.io/rock-paper-scissors-lizard-spock/
 
-## Credits 
+## Credits
+
+
 
 ### Content
 
