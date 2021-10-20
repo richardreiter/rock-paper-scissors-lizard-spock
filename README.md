@@ -40,7 +40,12 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Design
 
-- 
+- The colour scheme was generated with [Coolors.](https://coolors.co/af2bbf-a14ebf-6c91bf-5fb0b7-5bc8af)
+![Color scheme](docs/screenshots/palette.png)
+
+- [Google Fonts](https://fonts.google.com/) was used for the website's fonts, some inspiration on the choice of fonts (Chakra Petch & Quicksand) came from [mixed ideas of this blog post](https://artisanthemes.io/best-google-fonts-combinations-modern-agency-website/) and also [this site](https://www.whatfontis.com/NMY_BigBang.similar).
+
+![Fonts Used](docs/screenshots/fonts.png)
 
 ## Features
 
