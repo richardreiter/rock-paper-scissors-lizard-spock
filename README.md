@@ -134,7 +134,12 @@ The mockups below were done with the help of Balsamiq (for both desktop and mobi
 
 ### Testing User Stories from User Experience (UX) Section
 
-- 
+- "As a user, I want to understand what the website is about."
+  - Upon visiting the site the user can see a CTA button "About / How To Play", which will give the user more information about the site.
+- "As a user, I want to know how to play the game."
+  - Once the user clicks on the CTA button, a modal will open up providing the game instructions.
+- "As a user, I want to know the game's rules."
+  - Once the user clicks on the CTA button, a modal will open up providing the rules of the game.
 
 ### Validator Testing
 
